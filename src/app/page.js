@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Mainpage from './Mainpage'
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
