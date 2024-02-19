@@ -15,7 +15,7 @@ function mainpage() {
           </button>
         </div>
         <div className="flex-1 flex justify-end items-end">
-          <img src={"./Img/imgtheme.png"} alt="" className="h-[500x] w-[500px]" />
+          <img src={"./Img/imgtheme.png"} alt="" className="h-[1500x] w-[1500px]" />
         </div>
       </div>
     </div>
