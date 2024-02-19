@@ -16,14 +16,11 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.gradient{
+  color: rgba(128, 128, 128, 0.176);
+}
+.blend{
+  mix-blend-mode: color-burn;
 }
 
 @layer utilities {
