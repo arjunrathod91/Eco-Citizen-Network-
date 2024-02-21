@@ -38,9 +38,7 @@ function mainpage() {
             </div>
             <p class="lg:w-1/2 w-full leading-relaxed text-white">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              havent heard of them man bun deep jianbing selfies heirloom prism
-              food truck ugh squid celiac humblebrag.
+              gentrify, subway tile poke farm-to-table.
             </p>
           </div>
           <div class="flex justify-center flex-wrap items-center -m-4 gap-10">
