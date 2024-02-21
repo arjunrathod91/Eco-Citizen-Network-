@@ -8,7 +8,7 @@ function mainpage() {
         <div className="flex-1 flex flex-col justify-center items-start gap-[35px]">
           <strong className="text-4xl">
             Mobilizing Communities, Championing Sustainability: Act Locally,
-            Impact Globally.
+            Impact Globally
           </strong>
           <p>
             We are encouraging youth to fight against Climate Change. Connect

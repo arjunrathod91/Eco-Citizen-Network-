@@ -17,8 +17,12 @@ function Navbar() {
       <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer">Connect</a>
       <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer">Donate</a>
     </nav>
-    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Join
-    </button>
+    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">  Join
+   </button>
+    <div className={hover ? 'flex-col absolute top-[70px] left-[47%] bg-white list-none p-[1px] rounded-[4px]':'none'} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+        <li className='hover:bg-[#7C827C40] hover:text-black py-2 px-2  cursor-pointer'>Challenges</li>
+        <li className='hover:bg-[#7C827C40] hover:text-black py-2 px-2  cursor-pointer'>Events</li>
+    </div>
   </div>
 </header>
   )
