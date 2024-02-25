@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,9 +19,13 @@
 
 .gradient{
   color: rgba(128, 128, 128, 0.176);
+  color: rgba(255, 252, 252, 0.395);
 }
 .blend{
   mix-blend-mode: color-burn;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 
 @layer utilities {

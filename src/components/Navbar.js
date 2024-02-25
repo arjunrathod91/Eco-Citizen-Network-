@@ -4,6 +4,8 @@ import React, { useState } from 'react'
 
 function Navbar() {
     const [hover,setHover] = useState(false)
+  
+
   return (
       <header className="text-gray-600 body-font">
   <div className=" container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -13,7 +15,7 @@ function Navbar() {
     </Link>
     <nav className="md:ml-auto h-[50px] w-[500px] md:mr-auto flex flex-wrap items-center text-base justify-center border-2 gap-4 rounded-[30px]">
       <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px]  hover:bg-white cursor-pointer">Home</a>
-      <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer" onMouseEnter={()=>setHover(true)}>Explore</a>
+      <Link href="/explore" className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer" onMouseEnter={()=>setHover(true)}>Explore</Link>
       <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer">Connect</a>
       <a className="mr-5 px-3 py-[3px] text-white hover:text-black rounded-[7px] hover:bg-white cursor-pointer">Donate</a>
     </nav>
