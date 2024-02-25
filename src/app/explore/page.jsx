@@ -74,21 +74,21 @@ function Explore() {
 
                         <div className=' w-[260px] h-[150px] relative cursor-pointer'>
                             <img src={'Img/solar.jpg'} alt="" className='h-[100%] w-[100%] rounded-[10px]'/>
-                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-2xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Events</div>
+                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Green Actions</div>
                         </div>
 
                         <div className=' w-[260px] h-[150px] relative cursor-pointer'>
                             <img src={'Img/solar.jpg'} alt="" className='h-[100%] w-[100%] rounded-[10px]'/>
-                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-2xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Challenges</div>
+                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Community Cleanup</div>
                         </div>
 
                         <div className=' w-[260px] h-[150px] relative cursor-pointer'>
                             <img src={'Img/solar.jpg'} alt="" className='h-[100%] w-[100%] rounded-[10px]'/>
-                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-2xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Featured</div>
+                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Sustainable Projects</div>
                         </div>
                         <div className=' w-[260px] h-[150px] relative cursor-pointer'>
                             <img src={'Img/solar.jpg'} alt="" className='h-[100%] w-[100%] rounded-[10px]'/>
-                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-2xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Latest</div>
+                            <div className='absolute top-[0%] left-[0%] h-[100%] w-[100%] flex justify-center items-center text-white text-bold text-xl bg-[#000000ad] zindex-[2] rounded-[10px]'>Youth Actions</div>
                         </div>
                     </div>
                     </div>
